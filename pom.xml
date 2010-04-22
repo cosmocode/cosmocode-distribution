@@ -5,12 +5,12 @@
 
     <groupId>de.cosmocode</groupId>
     <artifactId>cosmocode-distribution</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <packaging>pom</packaging>
 
     <scm>
-        <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-distribution/trunk</developerConnection>
+        <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-distribution/tags/1.0.0</developerConnection>
     </scm>
 
     <build>
