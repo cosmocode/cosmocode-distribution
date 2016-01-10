@@ -21,12 +21,12 @@
         <repository>
             <id>cosmocode-public-releases</id>
             <name>CosmoCode public releases</name>
-            <url>scpexe://mvn.cosmocode.de:6589/var/www/mvn/</url>
+            <url>scpexe://repository.thelabelfinder.com:6589/var/www/mvn/</url>
         </repository>
         <snapshotRepository>
             <id>cosmocode-private-snapshots</id>
             <name>CosmoCode private snapshots</name>
-            <url>http://mvn.cosmo/repository/snapshots</url>
+            <url>http://repository.thelabelfinder.com/repository/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
     <profiles>
@@ -36,7 +36,7 @@
                 <snapshotRepository>
                     <id>cosmocode-public-snapshots</id>
                     <name>CosmoCode public snapshots</name>
-                    <url>scpexe://mvn.cosmocode.de:6589/var/www/mvn/</url>
+                    <url>scpexe://repository.thelabelfinder.com:6589/var/www/mvn/</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
@@ -46,7 +46,7 @@
                 <repository>
                     <id>cosmocode-private-releases</id>
                     <name>CosmoCode private releases</name>
-                    <url>http://mvn.cosmo/repository/internal</url>
+                    <url>http://repository.thelabelfinder.com/repository/internal</url>
                 </repository>
             </distributionManagement>
         </profile>
